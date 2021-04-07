@@ -10,7 +10,7 @@
 
 body {
   font-family: "PressStart2P", sans-serif;
-  background-color: black;
+  background-color: Black;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -47,14 +47,14 @@ body {
 }
 
 .pac-dot {
-  background-color: yellow;
+  background-color: Blue;
   border: solid black 7px;
   box-sizing: border-box;
   border-radius: 10px;
 }
 
 .blinky {
-  background-color: red;
+  background-color: green;
 }
 
 .stinky {
@@ -75,7 +75,7 @@ body {
 }
 
 .scared-ghost {
-  background-color: purple;
+  background-color: Green;
   border: 0px;
   border-radius: 0px;
 }
@@ -122,7 +122,7 @@ h2 {
 }
 
 #start-msg {
-  animation: blink 0.8s infinite;
+  animation: blink 2.0s infinite;
 }
 
 #start-screen h2 {
