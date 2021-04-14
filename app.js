@@ -1078,6 +1078,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
   //start the game when enter is pressed
   function startGame(event) {
+     document.getElementById("intromusic").play();
     if (event.keyCode === 13) {
       document.removeEventListener("keydown", startGame);
       //remove start screen
