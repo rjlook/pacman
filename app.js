@@ -1,5 +1,4 @@
 document.addEventListener("DOMContentLoaded", () => {
-  document.getElementById("intromusic").play();
   const scoreDisplay = document.getElementById("score");
   const width = 28;
   let score = 0;
