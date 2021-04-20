@@ -965,6 +965,7 @@ document.addEventListener("DOMContentLoaded", () => {
       score += 10;
       ghosts.forEach((ghost) => (ghost.isScared = true));
       setTimeout(unScareGhosts, 10000);
+      document.getElementById("chomp").play();
       squares[pacmanCurrentIndex].classList.remove("power-pellet");
       checkForWin();
     }
