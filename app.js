@@ -1044,7 +1044,7 @@ document.addEventListener("DOMContentLoaded", () => {
   }
 
   //check for a game over
-  function checkForGameOver() {-
+  function checkForGameOver() {
     if (
       squares[pacmanCurrentIndex].classList.contains("ghost") &&
       !squares[pacmanCurrentIndex].classList.contains("scared-ghost")
