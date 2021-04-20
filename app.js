@@ -1035,6 +1035,7 @@ document.addEventListener("DOMContentLoaded", () => {
           "ghost",
           "scared-ghost"
         );
+        document.getElementById("eat").play();
         ghost.currentIndex = ghost.startIndex;
         score += 100;
         squares[ghost.currentIndex].classList.add(ghost.className, "ghost");
