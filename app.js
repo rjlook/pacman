@@ -964,6 +964,7 @@ document.addEventListener("DOMContentLoaded", () => {
     if (squares[pacmanCurrentIndex].classList.contains("power-pellet")) {
       score += 10;
       ghosts.forEach((ghost) => (ghost.isScared = true));
+      document.getElementById("fruit").play();
       setTimeout(unScareGhosts, 10000);
       document.getElementById("chomp").play();
       squares[pacmanCurrentIndex].classList.remove("power-pellet");
