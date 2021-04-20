@@ -1044,12 +1044,12 @@ document.addEventListener("DOMContentLoaded", () => {
   }
 
   //check for a game over
-  function checkForGameOver() {
-    document.getElementById("ending").play();
+  function checkForGameOver() {-
     if (
       squares[pacmanCurrentIndex].classList.contains("ghost") &&
       !squares[pacmanCurrentIndex].classList.contains("scared-ghost")
     ) {
+      document.getElementById("ending").play();
       ghosts.forEach((ghost) => clearInterval(ghost.timerId));
       document.removeEventListener("keyup", movePacman);
       pacmanVelocity.x = 0;
